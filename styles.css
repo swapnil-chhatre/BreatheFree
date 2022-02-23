@@ -1,0 +1,14 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+.jumbotron{
+    margin-top:3px;
+    padding-left: 100px;
+    background-color: #5ef0bc;
+    color: white;
+    font-weight: bolder;
+}
+
+/*<!--#5ef0bc -->*/
