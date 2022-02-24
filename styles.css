@@ -6,7 +6,7 @@ html{
 .jumbotron{
     margin-top:3px;
     padding-left: 100px;
-    background-color: #5ef0bc;
+    background-color: rgb(94, 240, 188);
     color: white;
     font-weight: bolder;
 }
@@ -20,7 +20,7 @@ html{
     text-underline-offset: 10px;
 }
 
-.card{
+#serviceCard{
     margin: 50px 20px 50px 20px;
     padding: 15px 15px 15px 15px;
     width: 25rem;
@@ -29,7 +29,7 @@ html{
     transition:0.3s
 }
 
-.card:hover{
+#serviceCard:hover{
     transform: scale(1.1);
     border-color: #5ef0bc;
 }
@@ -87,5 +87,20 @@ html{
     cursor: pointer; /* Add a mouse pointer on hover */
     background-color: white;
   }
+
+.container-fluid{
+    text-align: centers;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#dashCard{
+    margin: 50px 20px 50px 20px;
+    padding: 15px 15px 15px 15px;
+    width: 55rem;
+    border-color: #2e8668;
+    border-width: 5px;
+    transition:0.3s 
+}
 
 /*<!--#5ef0bc -->*/
