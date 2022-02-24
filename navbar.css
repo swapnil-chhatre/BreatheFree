@@ -5,19 +5,20 @@ html{
 
 .navbar{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #5ef0bc;
+    background-color: #2e8668;
     color:white;
     font-size: 35px;
+    margin-bottom: 2px;
 }
 
-.sidenav {
+.sidenav{
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color:#95ffca;
+    background-color:#2e8668;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
@@ -30,14 +31,14 @@ html{
     text-decoration:none;
     font-size: 22px;
     font-weight: 800;
-    color: #2e8668;
+    color: white;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: white;
-    background-color: #2e8668;
+    color: #2e8668;
+    background-color: white;
     border-radius: 70px;
 }
 
@@ -49,20 +50,25 @@ html{
 }
 
 .arrow{
-    border: solid #2e8668;
+    border: solid white;
     border-width: 0 7px 7px 0;
     display: inline-block;
     padding: 8px;
 }
 
 .arrow:hover{
-    border:solid white;
+    border:solid #2e8668;
     border-width: 0 7px 7px 0;
 }
 
 .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 #main {
