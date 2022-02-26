@@ -20,16 +20,17 @@
 </head>
 <body id="main">
 
+<!-- Navbar -->
 <div id="nav-placeholder"></div>
 
 <div class = "jumbotron">
   <div class = "row" style="padding-left: 50px;">
     <div class = "col-7 align-self-center">
-      <h1 class = "display-1" style = "font-weight: 700;">BreatheFree <i class="fas fa-wind fa-1x"></i></h1>
+      <h1 class = "display-1" style = "font-weight: 700; -webkit-text-stroke: 2px #2e8668">BreatheFree <i class="fas fa-wind fa-1x"></i></h1>
       <p class="lead" style="font-size: 35px; font-weight: 600;"> Get A Healthy Mind, Naturally!</p>
     </div>
     <div class = "col-3">
-      <img src = "images\landing_img.png" height="500px" width="500px">
+      <img class = "d-sm-block" src = "images\landing_img.png" height="500px" width="500px">
     </div>
   </div>
 </div>
@@ -189,6 +190,9 @@
   </div>
 </div>
 
+<!-- Footer -->
+<div id="foot-placeholder"></div>
+
 <!-- Sidebar on Scroll button -->
 <button onclick="openNav()" id="myBtn"><i id = "dashArrow"></i></button>
 
@@ -200,11 +204,19 @@
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 <script>
   $(function(){
   $("#nav-placeholder").load("navbar.html");
 });
 </script>
+
+<script>
+  $(function(){
+  $("#foot-placeholder").load("footer.html");
+});
+</script>
+
 <script>
   function openNav() {
     document.getElementById("mySidenav").style.width = "210px";
