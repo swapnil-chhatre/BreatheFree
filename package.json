@@ -1,5 +1,5 @@
 {
-  "name": "assignment_1",
+  "name": "breathe_free",
   "version": "1.0.0",
   "description": "Admin dashboard",
   "main": "index.html",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cpt-Levi/WADL_Assignment_1.git"
+    "url": "git+https://github.com/cpt-Levi/BreatheFree.git"
   },
   "author": "Swapnil Chhatre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cpt-Levi/WADL_Assignment_1/issues"
+    "url": "https://github.com/cpt-Levi/BreatheFree/issues"
   },
-  "homepage": "https://github.com/cpt-Levi/WADL_Assignment_1#readme",
+  "homepage": "https://github.com/cpt-Levi/BreatheFree#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
